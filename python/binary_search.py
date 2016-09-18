@@ -8,11 +8,14 @@ Binary Search Implementation
 
 def binary_search(search_list, search_item):
     """
-    - Find middle value
-    - If middle equals, return
-    - If lower,
-    
+    Given an ordered list find the search_item.
+
+    Complexity
+    - Best: O(1)
+    - Average: O(log n)
+    - Worst: O(log n)
     """
+    
     li_len = len(search_list)
     
     mid_idx = li_len / 2
